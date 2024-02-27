@@ -9,7 +9,6 @@ import DropDown from "@/components/dropdown";
 export default function Home() {
 
   const [unilectives, setUnilectives] = useState(false);
-  const [showModal, setShowModal] = useState(false);
   return (
     <div className="h-screen">
       <SideBar />
@@ -18,17 +17,14 @@ export default function Home() {
           <div className="flex flex-col w-full gap-3">
             <h1 className="drop-shadow-md text-base sm:text-sm">Devsoc presents</h1>
             <div onClick={() => setUnilectives(unilectives => !unilectives)}>
-              {!unilectives && <h1 className="justify-center font-bold text-unilectives-color text-7xl sm:text-5xl">unilectives</h1>}
-              {unilectives && <h1 className="justify-center font-bold text-rose-400 text-7xl sm:text-5xl">unilectives</h1>}
+              {!unilectives && <h1 className="justify-center font-bold text-unilectives-color text-7xl sm:text-7xl">unilectives</h1>}
+              {unilectives && <h1 className="justify-center font-bold text-rose-400 text-7xl sm:text-7xl">unilectives</h1>}
             </div>
             <p className="justify-center font-bold text-base sm:text-sm">Your one-stop shop for UNSW course and elective reviews.</p>
-            <div onClick={() => setShowModal(true)}>
-              <SearchBar />
-
-            </div>
+            
+            <SearchBar />
             <DropDown />
             <CourseCards />
-            
 
           </div>
         </div>
