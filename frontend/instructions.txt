@@ -1,2 +1,18 @@
 Please detail the instructions to view your solution here:
 
+This repo uses nextjs+tailwind+typescript stack.
+
+1) Enter unilectives directory
+2) Type "npm install"
+
+From here you can choose to run the production ready build:
+3) Type "npm run build"
+4) Type "npm run start"
+5) Enter the localhost
+
+OR
+
+You can run the developer build:
+3) Type "npm run dev"
+4) Enter the localhost
+

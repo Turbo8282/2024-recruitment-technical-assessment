@@ -1,4 +1,3 @@
-import Image from "next/image"
 export default function CourseCards() {
    
     return (
@@ -6,7 +5,7 @@ export default function CourseCards() {
             {/* Row 1 */}
 
             {/* Col 1 */}
-            <div className="box-border px-6 py-7 bg-unilectives-card hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
+            <div className="box-border px-6 py-7 hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                     <h2 className="font-bold">COMP1511</h2>
                     <div>
@@ -24,7 +23,7 @@ export default function CourseCards() {
             </div>
 
             {/* Col 2 */}
-            <div className="box-border px-6 py-7 bg-unilectives-card hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
+            <div className="box-border px-6 py-7 hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                     <h2 className="font-bold">COMP1531</h2>
                         <div>
@@ -42,7 +41,7 @@ export default function CourseCards() {
             </div>
 
             {/* Col 3 */}
-            <div className="box-border px-6 py-7 bg-unilectives-card hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
+            <div className="box-border px-6 py-7 hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP1521</h2>
                     <div>
@@ -61,7 +60,7 @@ export default function CourseCards() {
             {/* Row 2 */}
 
             {/* Col 1 */}
-            <div className="box-border px-6 py-7 bg-unilectives-card hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
+            <div className="box-border px-6 py-7 hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP2521</h2>
                     <div>
@@ -79,7 +78,7 @@ export default function CourseCards() {
             </div>
 
             {/* Col 2 */}
-            <div className="box-border px-6 py-7 bg-unilectives-card hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
+            <div className="box-border px-6 py-7 hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP2511</h2>
                     <div>
@@ -96,7 +95,7 @@ export default function CourseCards() {
             </div>
 
             {/* Col 3 */}
-            <div className="box-border px-6 py-7 bg-unilectives-card hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
+            <div className="box-border px-6 py-7 hover:bg-gray-100 shadow-lg rounded-xl space-y-2 cursor-pointer">
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP3311</h2>
                     <div>

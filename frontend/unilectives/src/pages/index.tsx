@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import SideBar from "@/components/sidebar";
 import SearchBar from "@/components/searchbar";
 import CourseCards from "@/components/coursecards";
@@ -12,7 +10,7 @@ export default function Home() {
   return (
     <div className="h-screen">
       <SideBar />
-      <div className="flex flex-row w-full justify-center items-center pt-44">
+      <div className="flex flex-row w-full justify-center items-center pt-24">
         <div className="flex flex-row w-5/6 space-y-0 justify-between items-left md:space-y-4 md:flex-col md:items-center">
           <div className="flex flex-col w-full gap-3">
             <h1 className="drop-shadow-md text-base sm:text-sm">Devsoc presents</h1>
