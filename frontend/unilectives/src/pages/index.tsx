@@ -13,7 +13,7 @@ export default function Home() {
       <div className="flex flex-row w-full justify-center items-center pt-24">
         <div className="flex flex-row w-5/6 space-y-0 justify-between items-left md:space-y-4 md:flex-col md:items-center">
           <div className="flex flex-col w-full gap-3">
-            <h1 className="drop-shadow-md text-base sm:text-sm">Devsoc presents</h1>
+            <h1 className="drop-shadow-md text-base sm:text-sm">DevSoc presents</h1>
             <div onClick={() => setUnilectives(unilectives => !unilectives)}>
               {!unilectives && <h1 className="justify-center font-bold text-unilectives-color text-7xl sm:text-7xl">unilectives</h1>}
               {unilectives && <h1 className="justify-center font-bold text-rose-400 text-7xl sm:text-7xl">unilectives</h1>}
