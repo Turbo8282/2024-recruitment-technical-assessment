@@ -27,7 +27,9 @@ export default function CourseCards() {
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                     <h2 className="font-bold">COMP1531</h2>
                         <div>
-                            <span aria-label="rating" className="text-violet-400">★★★★★</span>
+                            <span aria-label="rating" className="text-violet-400">★★★★</span>
+                            <span aria-label="rating" className="text-gray-300">★</span>
+
                             <p className="text-xs">47 reviews</p>
                         </div>
                 </div>
@@ -45,7 +47,9 @@ export default function CourseCards() {
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP1521</h2>
                     <div>
-                        <span aria-label="rating" className="text-violet-400">★★★★★</span>
+                        <span aria-label="rating" className="text-violet-400">★★★★</span>
+                        <span aria-label="rating" className="text-gray-300">★</span>
+
                         <p className="text-xs">40 reviews</p>
                     </div>
                 </div>
@@ -64,7 +68,9 @@ export default function CourseCards() {
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP2521</h2>
                     <div>
-                        <span aria-label="rating" className="text-violet-400">★★★★★</span>
+                        <span aria-label="rating" className="text-violet-400">★★★★</span>
+                        <span aria-label="rating" className="text-gray-300">★</span>
+
                         <p className="text-xs">36 reviews</p>
                     </div>
                 </div>
@@ -82,7 +88,8 @@ export default function CourseCards() {
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP2511</h2>
                     <div>
-                        <span aria-label="rating" className="text-violet-400">★★★★★</span>
+                        <span aria-label="rating" className="text-violet-400">★★★</span>
+                        <span aria-label="rating" className="text-gray-300">★★</span>
                         <p className="text-xs">33 reviews</p>
                     </div>
                 </div>
@@ -99,7 +106,8 @@ export default function CourseCards() {
                 <div className="flex flex-wrap justify-between text-2xl gap-x-4">
                 <h2 className="font-bold">COMP3311</h2>
                     <div>
-                        <span aria-label="rating" className="text-violet-400">★★★★★</span>
+                        <span aria-label="rating" className="text-violet-400">★★★★</span>
+                        <span aria-label="rating" className="text-gray-300">★</span>
                         <p className="text-xs">33 reviews</p>
                     </div>
                 </div>
